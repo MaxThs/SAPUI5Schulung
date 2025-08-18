@@ -47,8 +47,9 @@ Hints:
 
 ##  Teil 2: Führe die App aus
 **Beschreibung:**  
->🟩 Führe App aus und schau was dir angezeigt wird. Nutze dafür die Konsole. Navigiere in deinen Order und füre deine App mit "npm start" aus.<br>
-Achtung: Es werden noch keine Daten angezeigt. Das passiert erst nach Teil 3. <br>
+>🟩 Führe App aus und schau was dir angezeigt wird. Nutze dafür die Konsole.<br>
+>Navigiere in deinen Order und führe deine App mit "npm start" aus.<br>
+>Achtung: Es werden noch keine Daten angezeigt. Das passiert erst nach Teil 3. <br>
 
 Hints:
 <details>
@@ -58,7 +59,13 @@ Hints:
     Wähle dann im Layout Manager das Panel aus. Dort kannst du die Konsole ansehen.
     </blockquote>
   </details>
-
+<details>
+  <summary>Wie navigiere ich in der Konsole in meinen Ordner.</summary>
+    <blockquote>
+    Wie auch bei Windows oder Linux könnt ihr über den Befehl "cd" in ordner navigieren. schreibt also einfach cd und den namen eures Projektes. mithilfe von Tab wird euch der Name vervollständigt.
+    </blockquote>
+  </details>
+  
 ---
 
 ##  Teil 3: FilterBar
