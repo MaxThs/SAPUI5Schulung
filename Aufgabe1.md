@@ -3,13 +3,6 @@
 Willkommen. Hier starten wir mit dem ersten Teil der Aufgaben. Ihr sollt am Ende eine View generiert haben, die aus einer Tabelle mit einer FilterBar besteht.
 Ihr Habt die Möglichkeit euch für jeden Teil Hilfen einblenden zu lassen. Wer will kan sich aber auich gerne auf eigeen Faust nur mithilfe des gezeigten SAPUI5 DemoKits durcharbeiten
 
-  <details>
-  <summary>Vorlage</summary>
-    <blockquote>
-    Infos
-    </blockquote>
-  </details>
-
 ---
 
 ## Teil 1: Table hinzufügen
