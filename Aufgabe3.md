@@ -2,13 +2,6 @@
 
 Eure letzte Aufgabe ist es jetzt eine HTML Seite in eueren Container auf dem Frontend zu laden. Dies kann auch statisch gemacht werden, nur im Coding könntet ihr das auch generisch machen. Aus Zeitmangel werden wir aber eine statische Anzeige machen.
 
-  <details>
-  <summary>Vorlage</summary>
-    <blockquote>
-    Infos
-    </blockquote>
-  </details>
-
 ---
 
 ## Teil 1: Frontend Objekt beziehen
