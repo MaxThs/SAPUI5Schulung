@@ -8,13 +8,13 @@ Ihr Habt die Möglichkeit euch für jeden Teil Hilfen einblenden zu lassen. Wer 
 ## Teil 1: Table hinzufügen
 
 **Beschreibung:**  
->🟩 Versucht die Tabelle in der View anzuzeigen. Nutzt dafür ein passendes Objekt. <br>
+>🟩 Versucht die Tabelle in der View anzuzeigen. Nutzt dafür ein passendes Objekt. Denkt an die euch beigebrachten Tools um ein passendes Objekt zu finden. <br>
 
 Hints:
 <details>
   <summary>Welches Objekt sollte man nutzen</summary>
   <blockquote>
-  Am Besten Nutzt ihr eine SmartTable. Diese haben wir bereits angesprochen. Schau dafür in folgenden <a href="https://sapui5.netweaver.ondemand.com/sdk/#/entity/sap.ui.comp.smarttable.SmartTable">link</a>
+  Am Besten nutzt ihr eine SmartTable. Diese haben wir bereits angesprochen. Schau dafür in folgenden <a href="https://sapui5.netweaver.ondemand.com/sdk/#/entity/sap.ui.comp.smarttable.SmartTable">link</a>
   </blockquote>
   <details>
   <summary>Welche Felder in der SmartTabel sind wichtig?</summary>
@@ -30,7 +30,7 @@ Hints:
     <details>
     <summary>Wo bekomme ich das EntitySet her?</summary>
       <blockquote>
-      Am Besten geht das über die metadaten. Hier kannst du per Rechtsklick den Data Editor anzeigen lassen. 
+      Am Besten geht das über die metadaten. Hier kannst du per Rechtsklick den Data Editor anzeigen lassen. Dann siehst du grafisch welche Entitysets im ODATA vorhanden sind.
       </blockquote>
     </details>
   </details>
@@ -40,7 +40,7 @@ Hints:
 
 ##  Teil 2: Führe die App aus
 **Beschreibung:**  
->🟩 Führe App aus und schau was dir angezeigt wird. Nutze dafür die Konsole.<br>
+>🟩 Führe die App aus und schau was dir angezeigt wird. Nutze dafür die Konsole.<br>
 >Navigiere in deinen Order und führe deine App mit "npm start" aus.<br>
 >Achtung: Es werden noch keine Daten angezeigt. Das passiert erst nach Teil 3. <br>
 
@@ -55,13 +55,13 @@ Hints:
 <details>
   <summary>Wie navigiere ich in der Konsole in meinen Ordner.</summary>
     <blockquote>
-    Wie auch bei Windows oder Linux könnt ihr über den Befehl "cd" in ordner navigieren. schreibt also einfach cd und den namen eures Projektes. mithilfe von Tab wird euch der Name vervollständigt.
+    Wie auch bei Windows oder Linux könnt ihr über den Befehl "cd" in ordner navigieren. Schreibt also einfach cd und den namen eures Projektes. Mithilfe von Tab wird euch der Name vervollständigt.
     </blockquote>
   </details>
   
 ---
 
-##  Teil 3: FilterBar
+##  Teil 3: FilterBar hinzufügen
 
 **Beschreibung:**  
 >🟩 Füge nun eine Filterbar hinzu. Pass auf das du die Filterbar mit deiner Table verbindest.<br>
@@ -89,9 +89,9 @@ Hints:
 
 ---
 
-## Bonus: Fügt ein Variante hinzu
+## Bonus: Fügt eine Variante hinzu
 **Beschreibung:**
->🟩 Fügt eine Funktion hinzu um Varianten zu speichern. Heißt wo definiert wird, nach welchen Sachen autoamtisch gefiltert werden oder welche Felder in welcher Reihenfolge angezeigt werden sollen.
+>🟩 Fügt eine Funktion hinzu um Varianten zu speichern. Ihr kennt die Varianten aus GUI Transaktionen. Hier können vordefinierte Filterkombinationen gespeichert werden. Da Die Tabelle auf der gleichen Seite wie die Filterbar ist, kann auch das Layout der Tabelle darin gespeichert werden.
 
 Hints:
 <details>
