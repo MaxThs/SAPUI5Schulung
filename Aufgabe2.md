@@ -18,8 +18,14 @@ Hints:
   <details>
   <summary>Wie funktioniert der Splitter</summary>
     <blockquote>
-    Ihr habt drei Teile. Einmal den Splitter selbst. hier werden Kopfdaten festgehalten. Der Container beinhaltet dann immer ein paar an SplitPanes die verschoben werden können. Die wiederum sind dann eure Objekte die alle weiteren XML Objekte beinhalten.
+    Ihr habt zwei Bereiche. Einmal den Splitter mit den Tags ResponsiveSplitter selbst. Hier werden Kopfdaten festgehalten die für die Verarbeitung des Splitterfunktionen notwendig sind. Und dann noch der Container. Dieser beinhaltet wiederum SplitPanes, die eure XML Objekte kapseln. Diese SplitPanes bilden die einzelnen Bereiche die ihr per Splitter größer und kleiner schieben könnt. Im Container wird dann die ausrichtung definiert.
     </blockquote>
+     <details>
+  <summary>Welche Daten müsst ihr eintragen</summary>
+    <blockquote>
+    Wie immer sind die IDs zwangsweise notwendig. Zusätzlich könnt ihr auf dem Kopf die defaultPane eintragen und beim Container die Ausrichtung. Schaut das ihr hier Horizontal nehmt.
+    </blockquote>
+  </details>
   </details>
 </details>
 
@@ -33,7 +39,7 @@ Hints:
 <details>
   <summary>Welches Objekt sollte man nutzen</summary>
   <blockquote>
-  Nutzt ein einfache Panel dafür. Hier könnt ihr den Inhalt später selbst definieren. Folg diesem <a href = "https://sapui5.hana.ondemand.com/#/entity/sap.m.Panel" >link </a>
+  Nutzt ein einfache Panel dafür. Hier könnt ihr den Inhalt später selbst definieren und er kann in belibigen Format vorliegen. Ihr brauch also kein eigenes HTML Objekt. Folg diesem <a href = "https://sapui5.hana.ondemand.com/#/entity/sap.m.Panel" >link </a>
   </blockquote>
 </details>
 
