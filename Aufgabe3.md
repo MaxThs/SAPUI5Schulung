@@ -1,13 +1,19 @@
 # Aufgabe 3 Controller anpassen
 
-Eure letzte Aufgabe ist es jetzt eine HTML Seite in eueren Container auf dem Frontend zu laden. Dies kann auch statisch gemacht werden, nur im Coding könntet ihr das auch generisch machen. Aus Zeitmangel werden wir aber eine statische Anzeige machen.
+Eure letzte Aufgabe ist es jetzt eine HTML Seite in eueren Container auf dem Frontend zu laden. Dies kann statisch in der View gemacht werden indem wir den content per Hand füllen, oder Dynamisch im Coding. Aus Zeitgründen werden wir das ganze zwar Statisch machen, aber trotzdem im Coding, damit ihr auch mit dem Controller mal zu tun hattet.
 
 ---
 
-## Teil 1: Frontend Objekt beziehen
+## Teil 1: Macht euch mit dem Controller vertraut.
+**Beschreibung:**  
+>🟩 Öffnet den Controller und schaut ihn euch erst einmal an. Dieser besteht aktuell aus einem Definitionsbereich, in dem die Controller Library in den Namensraum "Controller" geladen wird und einer einzigen vordefineirten Methode onInit. Diese Methode wird vom Framework beim Aufbau der Seite aufgerufen und ist gut geeignet um Daten vorzubereiten.
+>
+---
+
+## Teil 2: Frontend Objekt beziehen
 
 **Beschreibung:**  
->🟩 Versucht im Controller euch einen Bezug zum Frontend Objekt zu holen. <br>
+>🟩 Versucht im Controller euch einen Bezug zum Frontend Objekt zu holen. Schaut ob ihr eventuell Infos dazu im Demo Kit findet. Wenn nicht nutzt die Hints nach und nach.<br>
 > Achtung: Schaut das ihr die Variablen richtig benahmt. Ein Objekt zum Beispiel wird immer mit einem führenden kleinen o angegeben, also zum Beispiel oTable, wenn ihr euch die Table vom Frontend holt. Strings dagegen mit einem s.
 
 Hints:
@@ -39,11 +45,11 @@ Hints:
 
   ---
 
-  ## Teil 2: Library laden
+  ## Teil 3: Library laden
 
   **Beschreibung:**
-  >🟩 Ladet die Library für HTML vor. Ihr findet genauere Infos in der Doku.
-  >Achtung: Das erste Beispiel macht alles nur in der View, nicht im Controller
+  >🟩 Ladet die Library für HTML vor. Ihr findet genauere Infos in der API Referenz. Wir reden dabei von der Core HTML Library. Schaut euch aber auch gerne nach Samples um. <br>
+  >Achtung: Das erste Beispiel in den Samples macht alles nur in der View, nicht im Controller.
 
 Hits:
   <details>
@@ -71,11 +77,11 @@ Hits:
 
   ---
 
-  ## Teil 3: HTML erstellen und verbinden
+  ## Teil 4: HTML erstellen und verbinden
 
   **Beschreibung:**
-  >🟩 Dies ist nun der größte Teil. Erstelle neues HTMl und gib dies an das Panel. Schau in den Beispielen ob du herausfindest was du machen musst.<br>
->Wenn ihr es eifnach wollt, neht einfach folgenden Inhalt
+  >🟩 Dies ist nun der größte Teil. Erstelle neues HTML und gib dies an das Panel. Schau in den Beispielen ob du herausfindest was du machen musst.<br>
+>Wenn ihr es einfach wollt, nehmt einfach folgenden Inhalt
  
   <details>
   <summary>Inhalt</summary>
